@@ -13,4 +13,9 @@ public class HelloWordController {
     public String index(){
         return "Hello World!";
     }
+
+    @RequestMapping(value = "/testHotFix")
+    public void testHotFixBranch(){
+
+    }
 }
