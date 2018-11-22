@@ -16,5 +16,6 @@ public class HelloWordController {
 
     @RequestMapping(value = "/dev")
     public void dev2(){
+        System.out.println("测试开发分支");
     }
 }
