@@ -16,6 +16,11 @@ public class HelloWordController {
 
     @RequestMapping(value = "/testHotFix")
     public void testHotFixBranch(){
+        System.out.println("vvvv");
+    }
+
+    @RequestMapping(value = "/testDev1")
+    public void testDev1(){
 
     }
 }
