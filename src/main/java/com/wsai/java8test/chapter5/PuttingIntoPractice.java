@@ -17,7 +17,7 @@ public class PuttingIntoPractice {
 
         //交易
         List<Transaction> transactions = Arrays.asList(
-                new Transaction(brian, 2011, 300),
+                new Transaction(brian, 2011, 500),
                 new Transaction(raoul, 2012, 1000),
                 new Transaction(raoul, 2011, 400),
                 new Transaction(mario, 2012, 710),
