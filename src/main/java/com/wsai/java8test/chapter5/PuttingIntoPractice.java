@@ -23,6 +23,7 @@ public class PuttingIntoPractice {
                 new Transaction(mario, 2012, 710),
                 new Transaction(mario, 2012, 700),
                 new Transaction(alan, 2012, 950)
+
         );
 
         //找出2011年的所有交易并按交易额排序（从低到高）
