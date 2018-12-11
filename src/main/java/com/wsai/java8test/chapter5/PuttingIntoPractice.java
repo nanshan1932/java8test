@@ -9,12 +9,12 @@ import static java.util.Comparator.comparing;
 public class PuttingIntoPractice {
 
     public static void main(String[] args){
+        System.out.println("=============");
         //交易员
         Trader raoul = new Trader("Raoul", "Cambridge");
         Trader mario = new Trader("Mario","Milan");
         Trader alan = new Trader("Alan","Cambridge");
         Trader brian = new Trader("Brian","Cambridge");
-        System.out.println("=============");
         //交易
         List<Transaction> transactions = Arrays.asList(
                 new Transaction(brian, 2011, 500),
