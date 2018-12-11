@@ -9,6 +9,7 @@ import static java.util.Comparator.comparing;
 public class PuttingIntoPractice {
 
     public static void main(String[] args){
+        System.out.println("=============");
         //交易员
         Trader raoul = new Trader("Raoul", "Cambridge");
         Trader mario = new Trader("Mario","Milan");
