@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsai.coolblog.dao.ArticleMapper">
+    <resultMap id="articleResult" type="com.wsai.coolblog.model.Article">
+        <id property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="author" column="author"/>
+        <result property="content" column="content"/>
+        <result property="addTime" column="add_time"/>
+    </resultMap>
+
+    <select id="findByAuthorAndCreateTime" resultMap="articleResult">
+        SELECT
+        `id`, `title`, `author`, `content`, `add_time`
+        FROM
+        `article`
+        WHERE
+        `author` = #{author} AND `add_time` > #{addTime}
+    </select>
+</mapper>
